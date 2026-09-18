@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "name": "Penthouse Architectural Suite",
+  "description": "Luxury floor plan featuring living hall, dual terraces, and central atrium light-well",
+  "properties": {
+    "siteAreaM2": 420,
+    "zoning": "R-4 High Rise Residential",
+    "maxFloors": 1,
+    "maxFAR": 1.0
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "boundary",
+        "name": "Terrace Perimeter",
+        "category": "lot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-15, -12],
+            [15, -12],
+            [15, 12],
+            [-15, 12],
+            [-15, -12]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "building",
+        "name": "Interior Enclosed Living Suite",
+        "defaultFloors": 1,
+        "floorHeight": 3.4
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-12, -9],
+            [12, -9],
+            [12, 1],
+            [8, 1],
+            [8, 9],
+            [-6, 9],
+            [-6, 4],
+            [-12, 4],
+            [-12, -9]
+          ],
+          [
+            [-1, -2],
+            [3, -2],
+            [3, 2],
+            [-1, 2],
+            [-1, -2]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <!-- 3D Massing Cube Isometric -->
+  <path d="M32 10 L52 22 L32 34 L12 22 Z" fill="#38bdf8"/>
+  <path d="M12 22 L32 34 L32 54 L12 42 Z" fill="#0284c7"/>
+  <path d="M52 22 L32 34 L32 54 L52 42 Z" fill="#0369a1"/>
+  <!-- Sun accent -->
+  <circle cx="50" cy="14" r="5" fill="#f59e0b" />
+</svg>

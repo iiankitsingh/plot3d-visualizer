@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "name": "Suburban Villa & Setback Lot",
+  "description": "Single-family residential estate with 6m front setback and 3m side setbacks",
+  "properties": {
+    "siteAreaM2": 950,
+    "zoning": "R-1 Low Density Residential",
+    "maxFloors": 3,
+    "maxFAR": 1.2
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "boundary",
+        "name": "Lot Line",
+        "category": "lot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-18, -14],
+            [18, -14],
+            [18, 16],
+            [-18, 16],
+            [-18, -14]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "building",
+        "name": "Main Residence Footprint",
+        "defaultFloors": 2,
+        "floorHeight": 3.2
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-12, -8],
+            [12, -8],
+            [12, 4],
+            [4, 4],
+            [4, 10],
+            [-12, 10],
+            [-12, -8]
+          ],
+          [
+            [-2, 0],
+            [2, 0],
+            [2, 3],
+            [-2, 3],
+            [-2, 0]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "type": "FeatureCollection",
+  "name": "Metropolitan Commercial Center",
+  "description": "Urban commercial zoning block with street setbacks and service plaza",
+  "properties": {
+    "siteAreaM2": 1800,
+    "zoning": "C-3 Commercial High Density",
+    "maxFloors": 16,
+    "maxFAR": 6.5
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "boundary",
+        "name": "Zoning Lot Boundary",
+        "category": "lot"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-22, -18],
+            [22, -18],
+            [22, 18],
+            [-22, 18],
+            [-22, -18]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "building",
+        "name": "Commercial Massing Block",
+        "defaultFloors": 8,
+        "floorHeight": 3.8
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [-16, -12],
+            [16, -12],
+            [16, 2],
+            [6, 2],
+            [6, 12],
+            [-16, 12],
+            [-16, -12]
+          ]
+        ]
+      }
+    }
+  ]
+}
